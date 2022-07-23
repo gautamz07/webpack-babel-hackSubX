@@ -1,4 +1,14 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Regular.ttf') format('ttf'),
+    url('./Roboto-Thin.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 .hello {
   color: red;
   background: url('./icon.png');
+  font-family: 'Roboto';
 }
