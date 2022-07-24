@@ -10,3 +10,16 @@ When webpack bundles your source code, it can become difficult to track down err
 In order to make it easier to track down errors and warnings, JavaScript offers source maps, which map your compiled code back to your original source code. If an error originates from b.js, the source map will tell you exactly that.
 
 There are a lot of different options available when it comes to source maps. Be sure to check them out so you can configure them to your needs.
+
+
+### Choosing a Development Tool
+----------------------------------------------
+
+There are a couple of different options available in webpack that help you automatically compile your code whenever it changes:
+
+- webpack's Watch Mode
+- webpack-dev-server
+- webpack-dev-middleware
+
+
+webpack-dev-server serves bundled files from the directory defined in output.path, i.e., files will be available under http://[devServer.host]:[devServer.port]/[output.publicPath]/[output.filename].
